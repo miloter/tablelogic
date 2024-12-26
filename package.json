@@ -1,0 +1,31 @@
+{
+  "name": "@miloter/tablelogic",
+  "version": "1.0.0",
+  "description": "It allows you to calculate truth tables of simple and compound propositions",
+  "main": "tablelogic.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "propositional logic",
+    "truth tables",
+    "negation",
+    "disjunction",
+    "conjunction",
+    "conditional",
+    "biconditional"
+  ],
+  "author": "miloter",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 13.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miloter/tablelogic.git"
+  },
+  "dependencies": {
+    "@miloter/scanner": "^1.1.0"
+  }
+}
