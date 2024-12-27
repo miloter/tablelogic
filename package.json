@@ -1,6 +1,6 @@
 {
   "name": "@miloter/tablelogic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It allows you to calculate truth tables of simple and compound propositions",
   "main": "tablelogic.js",
   "type": "module",
