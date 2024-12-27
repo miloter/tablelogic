@@ -45,7 +45,10 @@ export default class TableLogic {
     #falso;  // Nombre del valor de falso    
 
     constructor() {
-        // Valores de verdad ordenados
+        /**
+         * Un valor truthy hace que los valores de verdad se muestren
+         * ordenados, un valor falsy los muestra en el orden predefinido.
+         */
         this.orderedTruthValue = true;
         this.#scan = new Scanner('', true);
         this.#propsSimp = new Map();
